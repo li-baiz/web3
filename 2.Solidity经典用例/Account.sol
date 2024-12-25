@@ -13,7 +13,6 @@ contract Account {
         require(newBalance >= oldBalance, "Overflow");
 
         balance = newBalance;
-
         assert(balance >= oldBalance);
     }
 
