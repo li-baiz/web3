@@ -14,6 +14,7 @@ contract Account {
 
         balance = newBalance;
         assert(balance >= oldBalance);
+
     }
 
     function withdraw(uint256 _amount) public {
